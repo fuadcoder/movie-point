@@ -17,9 +17,6 @@ export default function DarkModeSwitch() {
       ) : (
         <BsFillMoonFill className="text-2xl hover:text-purple-500 cursor-pointer" onClick={() => setTheme("dark")} />
       ))}  
-      
-      
-
     </>
   )
 }
