@@ -11,7 +11,7 @@ export default async function MoviePage({ params }) {
   const movieId = params.id;
   const movie = await getMovie(movieId);
   return (
-    <div className="width-full mt-8">
+    <div className="width-full">
       <div className="p-4 md:pt-8 flex flex-col md:flex-row items-center content-center max-w-6xl mx-auto md:space-x-6">
         <Image
           src={`https://image.tmdb.org/t/p/original/${
