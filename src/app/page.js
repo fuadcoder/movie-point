@@ -1,5 +1,6 @@
+
+
 import Results from "@/components/Results";
-import Image from "next/image";
 
 const API_KEY = process.env.API_KEY
 
